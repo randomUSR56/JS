@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy, or not?</title>
+    <script src="happy.js"></script>
+    <link rel="stylesheet" href="happy.css">
+    
+</head>
+<body>
+
+    <div class="content">
+
+        <h1>This is a website that can manipulate khat behavior.</h1>
+        <h1>Go ahead, try it!</h1>
+
+        <img src="img/question.jpeg" id="image" title="Schrodinger's khat??">
+        
+        <iframe id="videoSmoke" width="1280" height="720" src="https://www.youtube.com/embed/6xa6F7ntzJU" title="Big Smoke IRL!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+
+        <div class="buttons">
+            <button type = "button" class = "btn1" id="btnHappy" onclick="Sad()">Make khat happy</button>   
+            <!-- The images are changed up, sorry.
+            So that makes happy = sad and vice versa.
+            Not Bothered to change it. -->
+            <button type = "button" class = "btn2" id="btnSad" onclick="Happy()">Make khat sad</button>
+        </div>
+
+        <div class="buttons">
+            <button type = "button" class = "btn3" id="btnSmoke" onclick="BigSmoke()">Big Smoke IRL</button>
+        </div>
+        <script src="happy.js"></script>
+    </div>
+</body>
+</html>
