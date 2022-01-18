@@ -67,27 +67,3 @@ body {
     width: 300px;
     height: 300px;
 }
-
-#videoSmoke {
-    visibility: hidden;
-}
-
-.btn3 {
-    padding: 20px;
-    background-color: rgba(173, 20, 219, 0.602);
-    border-radius: 4px;
-    display: inline-block;
-    transition-duration: 0.2s;
-    box-shadow: 0 9px #999;
-    text-align: center;
-}
-
-.btn3:hover {
-    background-color: white;
-}
-
-.btn3:active {
-    background-color: rgba(173, 20, 219, 0.602);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
