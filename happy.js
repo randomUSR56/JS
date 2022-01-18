@@ -18,9 +18,4 @@ function Sad() {
     console.log("onclick");
     console.log(iMage.src);
 }
-
-function BigSmoke() {
-    sMoke.style.display = "inline-block"
-}
-
 console.log("Nagyon hacker vagy");
